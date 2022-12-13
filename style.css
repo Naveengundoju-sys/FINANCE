@@ -1,0 +1,70 @@
+    body{
+        background: url('./bg.jpg') ;
+        background-repeat: no-repeat; 
+        background-size: cover;
+        overflow-x: hidden;
+    }
+    .navbar{
+        width:100vw;
+        background-color: coral;
+    }
+    a{
+        color:white;
+    }
+    .navbar-toggler-icon{
+            color: white;
+            padding:2px 0 0 0;
+    }
+    nav .collapse ul li{
+        background-color: aliceblue;
+        margin:0 10px;
+        padding:1px 20px;
+        margin:4px 10px ;
+    }
+    nav .collapse ul li a{
+        color:coral;
+    }
+    .icons{
+        float:right;
+    }
+    .content{
+        width:100%;
+        height: auto;
+        padding:65px 0;
+    }
+    .content h1{
+        text-align: center;
+        text-shadow: 2px 3px 3px red;
+    }
+    .details{
+        color:black;
+        margin:30px 30%;
+        text-shadow: 1px 1px black;
+    }
+    .button{
+        position:relative;
+        left:40%;
+    }
+    .button button{
+        padding:5px 40px;
+        border-radius: 30px;
+        background-color: coral;
+        color:white;
+
+    }
+    .button button h2 i{
+        margin:5px 0 0 0;
+    }
+    .button button h2 i{
+        animation: icon .8s infinite;
+    }
+    @keyframes icon {
+        0%{position: relative;left:10px;}
+        100%{left:0;}
+    }
+    @media screen and (max-width:676px) {
+        body{
+            width:100%;
+            overflow-x: hidden;
+        } 
+    }
